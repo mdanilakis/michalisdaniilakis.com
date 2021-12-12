@@ -1,1 +1,4 @@
 .idea
+deploy.log
+/public
+/resources
