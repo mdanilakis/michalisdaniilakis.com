@@ -9,10 +9,6 @@ SITEMAP_URL = https://michalisdaniilakis.com/sitemap.xml
 
 DEPLOY_LOG := deploy.log
 
-.EXPORT_ALL_VARIABLES:
-
-AWS_PROFILE = mdanilakis@gmail.com
-
 .ONESHELL:
 
 build-production:
