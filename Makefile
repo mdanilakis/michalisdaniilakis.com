@@ -12,7 +12,7 @@ DEPLOY_LOG := deploy.log
 .ONESHELL:
 
 build-production:
-	HUGO_ENV=production $(HUGO)
+	HUGO_ENV=production $(HUGO) --cleanDestinationDir
 
 deploy: build-production
 	echo "Copying files to server..."
