@@ -1,0 +1,20 @@
+/* Custom sidebar */
+#sidebar .sidebar-profile .sidebar-profile-name {
+  color: #313748;
+}
+
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link,
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link:active,
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link:hover {
+  color: #313748;
+}
+
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link .sidebar-button-desc {
+  transition: margin-left 250ms ease;
+}
+
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link:active .sidebar-button-desc,
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link:hover .sidebar-button-desc {
+  margin-left: 5%;
+}
+
