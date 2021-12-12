@@ -14,6 +14,10 @@ DEPLOY_LOG := deploy.log
 build-production:
 	HUGO_ENV=production $(HUGO) --cleanDestinationDir
 
+local:
+	echo "Starting local..."
+	$(HUGO) server -D
+
 deploy: build-production
 	echo "Copying files to server..."
 	$(AWS) s3 sync $(PUBLIC_FOLDER) $(S3_BUCKET) --size-only --delete | tee -a $(DEPLOY_LOG)

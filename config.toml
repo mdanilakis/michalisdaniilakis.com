@@ -4,6 +4,7 @@ defaultContentLanguage = "en-us"
 title = "Michalis Daniilakis"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "michalis-daniilakis"
+googleAnalytics = "G-GR7NF66NXX"
 paginate = 7
 canonifyurls = true
 
@@ -312,6 +313,12 @@ canonifyurls = true
   #  fbAdminIds =
   # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
   #  fbAppId =
+
+  # ----------------
+  # Google Analytics
+  # ----------------
+  [params.googleAnalytics]
+    async = true
 
   # --------------
   # Comment system
