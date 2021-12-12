@@ -1,8 +1,9 @@
-baseURL = 'https://michalisdaniilakis.com/'
-languageCode = 'en-us'
-defaultContentLanguage = 'en-us'
-title = 'Michalis Daniilakis'
-theme = 'hugo-tranquilpeak-theme'
+baseURL = "https://michalisdaniilakis.com/"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+title = "Michalis Daniilakis"
+theme = "hugo-tranquilpeak-theme"
+disqusShortname = "michalis-daniilakis"
 paginate = 7
 canonifyurls = true
 

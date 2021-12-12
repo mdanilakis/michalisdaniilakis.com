@@ -1,7 +1,7 @@
 ---
 title: "About me"
 type: page
-comments: false
+noComment: true
 showDate: false
 showPagination: false
 showSocial: false
