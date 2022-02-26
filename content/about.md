@@ -27,7 +27,7 @@ I'm Michalis Daniilakis.
 
 {{< image classes="fig-50 clear" src="/images/content/olympus-me.png" title="Mt. Olympus - Greece" >}}
 
-I'm a software engineer, with long experience in Cloud and Web development. I architect solutions, write a lot of Java code, but also scripts in Python and bash.
+I'm a software engineer with experience in developing cloud-native web applications.
 
 I am a huge fan of infrastructure as code, unix and git.
 
