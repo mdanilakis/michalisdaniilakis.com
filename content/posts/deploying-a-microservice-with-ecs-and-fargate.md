@@ -232,8 +232,8 @@ aws cloudformation deploy \
   --capabilities CAPABILITY_NAMED_IAM
 ```
 
-All of our infrastructure should be provisioned within minutes and we should have access to the Service using the A record created in Route53.
+All of our infrastructure should be provisioned within minutes, and we should have access to the Service using the A record created in Route53.
 
-You can find the complete source of this guide [in GitHub](https://github.com/mdanilakis/spring-boot-docker/tree/ecs-fagate).
+You can find the complete source of this guide [on GitHub](https://github.com/mdanilakis/spring-boot-docker/tree/ecs-fagate).
 
 eof.

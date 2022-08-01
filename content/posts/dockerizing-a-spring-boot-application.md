@@ -139,6 +139,6 @@ Date: Sun, 13 Mar 2022 20:30:00 GMT
 Hello, world!
 ```
 
-You can find the complete source of this guide [in GitHub](https://github.com/mdanilakis/spring-boot-docker).
+You can find the complete source of this guide [on GitHub](https://github.com/mdanilakis/spring-boot-docker).
 
 eof.
